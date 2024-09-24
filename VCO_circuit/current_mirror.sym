@@ -1,0 +1,34 @@
+v {xschem version=3.4.6RC file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 40 -150 40 -30 {}
+L 4 100 -150 100 -30 {}
+L 4 40 -150 100 -150 {}
+L 4 40 -30 100 -30 {}
+L 7 80 -170 80 -150 {}
+L 7 20 -120 40 -120 {}
+L 7 20 -90 40 -90 {}
+L 7 100 -90 120 -90 {}
+L 7 20 -60 40 -60 {}
+L 7 80 -30 80 -10 {}
+B 5 77.5 -172.5 82.5 -167.5 {name=VDD dir=inout}
+B 5 17.5 -122.5 22.5 -117.5 {name=pGate dir=inout}
+B 5 17.5 -92.5 22.5 -87.5 {name=In dir=inout}
+B 5 117.5 -92.5 122.5 -87.5 {name=Out dir=inout}
+B 5 17.5 -62.5 22.5 -57.5 {name=nGate dir=inout}
+B 5 77.5 -12.5 82.5 -7.5 {name=GND dir=inout}
+T {@current mirror} 71 -154 2 0 0.1 0.1 {}
+T {@name} 35 -32 0 0 0.2 0.2 {}
+T {VDD} 76 -145 3 1 0.2 0.2 {}
+T {pGate} 45 -116 2 1 0.2 0.2 {}
+T {In} 45 -86 2 1 0.2 0.2 {}
+T {Out} 95 -94 0 1 0.2 0.2 {}
+T {nGate} 45 -56 2 1 0.2 0.2 {}
+T {GND} 94 -35 1 1 0.2 0.2 {}
